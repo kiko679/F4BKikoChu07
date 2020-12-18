@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family:Arial Verdana;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background:#008080 ;
+  color:#e67300 ;font-family:Arial Verdana;
+  
+}
+
+
+.header h1 {
+  font-size: 40px;font-family:Arial Verdana;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color:#0099cc;font-family:Arial Verdana;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFE4B5;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {font-size: 20px;
+  background-color:#a52a2a;
+  color:yellow;font-family:Arial Verdana;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+	color: #c5ccd3
+}
+
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color:white;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  color: #696969
+}
+
+
+fakeimg {
+  background-color:#FDF5E6;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #FDF5E6;color:#A52A2A ;font-family:Arial Verdana;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Kiko Chu</h1>
+  <p>A website created by Kiko.</p>
+</div>
+
+<div class="navbar">
+	<a href="index.html">Home</a>
+  <a href="EducationBackground.html">Education Background</a>
+  <a href="ExtracurricularActivities.html">Extracurricular Activities </a>
+  <a href="CertificationsandAwards.html">Certifications and Awards </a>
+	</div>
+  
+	
+
+<div class="row">
+  <div class="side">
+    <h1> About Me</h1>
+    <h3>Photo of me:</h3>
+<img src="aaa.jpeg" alt="no1." width="300" height="500";>
+    <h3>This is kiko ;)</h3>
+   </div>
+
+  <div class="main">
+   <h3>2019 – 2020</h3>
+	<li>-	ABRSM Piano Grade 8</li>
+	
+	
+    <p></p>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h5>Email:kikowannaslp@gmail.com / Instagram:kkikookoko</h5>
+</div>
+
+</body>
+</html>
